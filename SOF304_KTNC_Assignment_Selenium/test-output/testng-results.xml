@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" ignored="0" total="57" passed="49">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="125030" started-at="2020-04-08T03:00:36Z" finished-at="2020-04-08T03:02:41Z">
+    <groups>
+      <group name="Add_Staff">
+        <method signature="themthanhvien.Add_Staff_01()[pri:1, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_01" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_02()[pri:2, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_02" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_03()[pri:3, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_03" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_04()[pri:4, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_04" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_05()[pri:5, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_05" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_06()[pri:6, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_06" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_07()[pri:7, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_07" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_08()[pri:8, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_08" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_09()[pri:9, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_09" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_10()[pri:10, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_10" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_11()[pri:11, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_11" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_12()[pri:12, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_12" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_13()[pri:13, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_13" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_14()[pri:14, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_14" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_15()[pri:15, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_15" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_16()[pri:16, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_16" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_17()[pri:17, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_17" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_18()[pri:18, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_18" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_19()[pri:19, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_19" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_20()[pri:20, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_20" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_21()[pri:21, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_21" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_22()[pri:22, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_22" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_23()[pri:23, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_23" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_24()[pri:24, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_24" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_25()[pri:25, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_25" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_26()[pri:26, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_26" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_27()[pri:27, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_27" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_28()[pri:28, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_28" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_29()[pri:29, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_29" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_30()[pri:30, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_30" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_31()[pri:31, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_31" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_32()[pri:32, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_32" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_33()[pri:33, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_33" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_34()[pri:34, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_34" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_35()[pri:35, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_35" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_36()[pri:36, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_36" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_37()[pri:37, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_37" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_38()[pri:38, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_38" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_39()[pri:39, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_39" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_40()[pri:40, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_40" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_41()[pri:41, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_41" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_42()[pri:42, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_42" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_43()[pri:43, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_43" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_44()[pri:44, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_44" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_45()[pri:45, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_45" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_46()[pri:46, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_46" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_47()[pri:47, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_47" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_48()[pri:48, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_48" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_49()[pri:49, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_49" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_50()[pri:50, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_50" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_51()[pri:51, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_51" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_52()[pri:52, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_52" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_53()[pri:53, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_53" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_54()[pri:54, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_54" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_55()[pri:55, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_55" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_56()[pri:56, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_56" class="Selenium.themthanhvien"/>
+        <method signature="themthanhvien.Add_Staff_57()[pri:57, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_57" class="Selenium.themthanhvien"/>
+      </group> <!-- Add_Staff -->
+    </groups>
+    <test name="Default test" duration-ms="125030" started-at="2020-04-08T03:00:36Z" finished-at="2020-04-08T03:02:41Z">
+      <class name="Selenium.themthanhvien">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:Selenium.themthanhvien@5677323c]" name="BeforeClass" is-config="true" duration-ms="7351" started-at="2020-04-08T10:00:36Z" finished-at="2020-04-08T10:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="Add_Staff_01()[pri:1, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_01" duration-ms="3009" started-at="2020-04-08T10:00:44Z" description="thêm mới thành viên đây đủ các trường" finished-at="2020-04-08T10:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_01 -->
+        <test-method status="PASS" signature="Add_Staff_02()[pri:2, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_02" duration-ms="282" started-at="2020-04-08T10:00:47Z" description="thêm mới thành viên với email được bỏ trống" finished-at="2020-04-08T10:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_02 -->
+        <test-method status="PASS" signature="Add_Staff_03()[pri:3, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_03" duration-ms="2260" started-at="2020-04-08T10:00:47Z" description="Nhập đúng định dạng trường email" finished-at="2020-04-08T10:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_03 -->
+        <test-method status="PASS" signature="Add_Staff_04()[pri:4, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_04" duration-ms="1353" started-at="2020-04-08T10:00:49Z" description=" Nhập sai định dạng trường email" finished-at="2020-04-08T10:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_04 -->
+        <test-method status="PASS" signature="Add_Staff_05()[pri:5, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_05" duration-ms="1356" started-at="2020-04-08T10:00:51Z" description="Nhập số vào trường email" finished-at="2020-04-08T10:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_05 -->
+        <test-method status="FAIL" signature="Add_Staff_06()[pri:6, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_06" duration-ms="2080" started-at="2020-04-08T10:00:52Z" description="Nhập chữ và dấu chấm  trường email" finished-at="2020-04-08T10:00:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Bạn sai định dạng Email] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Bạn sai định dạng Email] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_06(themthanhvien.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_06 -->
+        <test-method status="PASS" signature="Add_Staff_07()[pri:7, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_07" duration-ms="2219" started-at="2020-04-08T10:00:54Z" description="Nhập chữ và dấu _ trường email" finished-at="2020-04-08T10:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_07 -->
+        <test-method status="FAIL" signature="Add_Staff_08()[pri:8, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_08" duration-ms="2714" started-at="2020-04-08T10:00:56Z" description="Nhập chữ và ký tự đặc biệt trường email" finished-at="2020-04-08T10:00:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Bạn nhập sai định dạng Email] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Bạn nhập sai định dạng Email] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_08(themthanhvien.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_08 -->
+        <test-method status="PASS" signature="Add_Staff_09()[pri:9, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_09" duration-ms="2002" started-at="2020-04-08T10:00:59Z" description="Nhập chữ nhỏ hơn 4 ký tự trường email" finished-at="2020-04-08T10:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_09 -->
+        <test-method status="PASS" signature="Add_Staff_10()[pri:10, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_10" duration-ms="2284" started-at="2020-04-08T10:01:01Z" description="Nhập kí tự số đằng sau  ký tự @ vào  trường email" finished-at="2020-04-08T10:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_10 -->
+        <test-method status="PASS" signature="Add_Staff_11()[pri:11, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_11" duration-ms="2196" started-at="2020-04-08T10:01:03Z" description="Nhập kí tự _ đằng sau  ký tự @ vào  trường email" finished-at="2020-04-08T10:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_11 -->
+        <test-method status="PASS" signature="Add_Staff_12()[pri:12, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_12" duration-ms="2597" started-at="2020-04-08T10:01:06Z" description="Nhập kí tự  đặc biệt đằng sau  ký tự @ vào  trường email" finished-at="2020-04-08T10:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_12 -->
+        <test-method status="PASS" signature="Add_Staff_13()[pri:13, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_13" duration-ms="2374" started-at="2020-04-08T10:01:08Z" description="Nhập &lt;3 ký tự đằng sau  ký tự @ vào  trường email" finished-at="2020-04-08T10:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_13 -->
+        <test-method status="PASS" signature="Add_Staff_14()[pri:14, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_14" duration-ms="2162" started-at="2020-04-08T10:01:11Z" description="Nhập khoảng trắng vào trường email" finished-at="2020-04-08T10:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_14 -->
+        <test-method status="PASS" signature="Add_Staff_15()[pri:15, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_15" duration-ms="2398" started-at="2020-04-08T10:01:13Z" description="Nhập khoảng trắng và kí tự số vào trường email" finished-at="2020-04-08T10:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_15 -->
+        <test-method status="FAIL" signature="Add_Staff_16()[pri:16, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_16" duration-ms="2529" started-at="2020-04-08T10:01:15Z" description="Nhập khoảng trắng và kí tự đặc biệt vào trường email" finished-at="2020-04-08T10:01:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Bạn nhập sai định dạng Email] but found [Phần đứng trước '@' không được chứa ' ']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Bạn nhập sai định dạng Email] but found [Phần đứng trước '@' không được chứa ' ']
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_16(themthanhvien.java:248)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_16 -->
+        <test-method status="FAIL" signature="Add_Staff_17()[pri:17, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_17" duration-ms="2094" started-at="2020-04-08T10:01:18Z" description="Nhập 2 ký tự @@  vào trường email" finished-at="2020-04-08T10:01:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Bạn nhập sai định dạng Email] but found [Phần đứng trước '@' không được chứa '@']]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Bạn nhập sai định dạng Email] but found [Phần đứng trước '@' không được chứa '@']
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_17(themthanhvien.java:262)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_17 -->
+        <test-method status="PASS" signature="Add_Staff_18()[pri:18, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_18" duration-ms="2190" started-at="2020-04-08T10:01:20Z" description="Bỏ Trống trường Password" finished-at="2020-04-08T10:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_18 -->
+        <test-method status="PASS" signature="Add_Staff_19()[pri:19, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_19" duration-ms="2078" started-at="2020-04-08T10:01:22Z" description="Nhập vào trường &lt;5 ký tự chữ Password" finished-at="2020-04-08T10:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_19 -->
+        <test-method status="PASS" signature="Add_Staff_20()[pri:20, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_20" duration-ms="1965" started-at="2020-04-08T10:01:24Z" description="Nhập vào trường =6 ký tự chữ Password" finished-at="2020-04-08T10:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_20 -->
+        <test-method status="PASS" signature="Add_Staff_21()[pri:21, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_21" duration-ms="2071" started-at="2020-04-08T10:01:26Z" description="Nhập vào trường 7 ký tự chữ Password" finished-at="2020-04-08T10:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_21 -->
+        <test-method status="FAIL" signature="Add_Staff_22()[pri:22, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_22" duration-ms="2127" started-at="2020-04-08T10:01:28Z" description="Nhập vào trường  ký tự chữ  unicode 6 ký tự Password" finished-at="2020-04-08T10:01:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password chỉ chứa các kí tự từ A-Z,a-z,0-9] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password chỉ chứa các kí tự từ A-Z,a-z,0-9] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_22(themthanhvien.java:332)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_22 -->
+        <test-method status="FAIL" signature="Add_Staff_23()[pri:23, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_23" duration-ms="2139" started-at="2020-04-08T10:01:30Z" description="Nhập vào trường  ký tự chữ  unicode 7 ký tự Password" finished-at="2020-04-08T10:01:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password chỉ chứa các kí tự từ A-Z,a-z,0-9] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password chỉ chứa các kí tự từ A-Z,a-z,0-9] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_23(themthanhvien.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_23 -->
+        <test-method status="PASS" signature="Add_Staff_24()[pri:24, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_24" duration-ms="2316" started-at="2020-04-08T10:01:32Z" description="Nhập vào trường Password ký tự in hoa" finished-at="2020-04-08T10:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_24 -->
+        <test-method status="PASS" signature="Add_Staff_25()[pri:25, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_25" duration-ms="2427" started-at="2020-04-08T10:01:35Z" description="Nhập vào trường Password ký tự in thường" finished-at="2020-04-08T10:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_25 -->
+        <test-method status="FAIL" signature="Add_Staff_26()[pri:26, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_26" duration-ms="2046" started-at="2020-04-08T10:01:37Z" description="Nhập vào trường Password ký tự đặc biệt " finished-at="2020-04-08T10:01:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password chỉ chứa các kí tự từ A-Z,a-z,0-9] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password chỉ chứa các kí tự từ A-Z,a-z,0-9] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_26(themthanhvien.java:388)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_26 -->
+        <test-method status="PASS" signature="Add_Staff_27()[pri:27, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_27" duration-ms="2150" started-at="2020-04-08T10:01:39Z" description="Nhập vào trường Password số và chữ " finished-at="2020-04-08T10:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_27 -->
+        <test-method status="FAIL" signature="Add_Staff_28()[pri:28, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_28" duration-ms="2078" started-at="2020-04-08T10:01:41Z" description="Nhập vào trường Password số, chữ, ký tự đặc biệt " finished-at="2020-04-08T10:01:43Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Password chỉ chứa các kí tự từ A-Z,a-z,0-9] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Password chỉ chứa các kí tự từ A-Z,a-z,0-9] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_28(themthanhvien.java:416)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_28 -->
+        <test-method status="PASS" signature="Add_Staff_29()[pri:29, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_29" duration-ms="1269" started-at="2020-04-08T10:01:43Z" description="Bỏ Trống trường Re-enter password" finished-at="2020-04-08T10:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_29 -->
+        <test-method status="PASS" signature="Add_Staff_30()[pri:30, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_30" duration-ms="1613" started-at="2020-04-08T10:01:45Z" description="Nhập trường Re-enter password giống password" finished-at="2020-04-08T10:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_30 -->
+        <test-method status="PASS" signature="Add_Staff_31()[pri:31, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_31" duration-ms="2471" started-at="2020-04-08T10:01:46Z" description="Nhập trường Re-enter password khác password" finished-at="2020-04-08T10:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_31 -->
+        <test-method status="PASS" signature="Add_Staff_32()[pri:32, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_32" duration-ms="2002" started-at="2020-04-08T10:01:49Z" description="Nhập trường Re-enter password chữ in hoa password" finished-at="2020-04-08T10:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_32 -->
+        <test-method status="PASS" signature="Add_Staff_33()[pri:33, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_33" duration-ms="766" started-at="2020-04-08T10:01:51Z" description="Nhập trường Re-enter password chữ in hoa và số password" finished-at="2020-04-08T10:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_33 -->
+        <test-method status="PASS" signature="Add_Staff_34()[pri:34, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_34" duration-ms="2028" started-at="2020-04-08T10:01:51Z" description="Nhập trường Re-enter password chữ in hoa và ký tự đặc biệt password" finished-at="2020-04-08T10:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_34 -->
+        <test-method status="PASS" signature="Add_Staff_35()[pri:35, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_35" duration-ms="2071" started-at="2020-04-08T10:01:53Z" description="Nhập trường Re-enter password chữ in hoa và ký tự thường" finished-at="2020-04-08T10:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_35 -->
+        <test-method status="PASS" signature="Add_Staff_36()[pri:36, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_36" duration-ms="2061" started-at="2020-04-08T10:01:56Z" description="Nhập trường Re-enter password chữ  có dấu " finished-at="2020-04-08T10:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_36 -->
+        <test-method status="PASS" signature="Add_Staff_37()[pri:37, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_37" duration-ms="2445" started-at="2020-04-08T10:01:58Z" description="Nhập trường Re-enter password chữ  có dấu và khoảng trắng " finished-at="2020-04-08T10:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_37 -->
+        <test-method status="PASS" signature="Add_Staff_38()[pri:38, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_38" duration-ms="2291" started-at="2020-04-08T10:02:00Z" description="Nhập trường Re-enter password chữ  không dấu và khoảng trắng " finished-at="2020-04-08T10:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_38 -->
+        <test-method status="PASS" signature="Add_Staff_39()[pri:39, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_39" duration-ms="2242" started-at="2020-04-08T10:02:02Z" description="Nhập trường Re-enter password chữ  không dấu ,khoảng trắng,ký tự đặc biệt" finished-at="2020-04-08T10:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_39 -->
+        <test-method status="PASS" signature="Add_Staff_40()[pri:40, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_40" duration-ms="2138" started-at="2020-04-08T10:02:05Z" description="Nhập trường Re-enter password  khoảng trắng,ký tự đặc biệt " finished-at="2020-04-08T10:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_40 -->
+        <test-method status="PASS" signature="Add_Staff_41()[pri:41, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_41" duration-ms="2076" started-at="2020-04-08T10:02:07Z" description="Nhập trường Re-enter password  khoảng trắng" finished-at="2020-04-08T10:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_41 -->
+        <test-method status="PASS" signature="Add_Staff_42()[pri:42, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_42" duration-ms="2315" started-at="2020-04-08T10:02:09Z" description="Nhập trường Re-enter password  khoảng trắng và số" finished-at="2020-04-08T10:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_42 -->
+        <test-method status="PASS" signature="Add_Staff_43()[pri:43, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_43" duration-ms="645" started-at="2020-04-08T10:02:11Z" description="Nhập trường Re-enter password chữ có dấu khoảng trắng và số" finished-at="2020-04-08T10:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_43 -->
+        <test-method status="PASS" signature="Add_Staff_44()[pri:44, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_44" duration-ms="2036" started-at="2020-04-08T10:02:12Z" description="Nhập trường Re-enter password chữ có dấu khoảng trắng và số, ký tự đặc biệt" finished-at="2020-04-08T10:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_44 -->
+        <test-method status="PASS" signature="Add_Staff_45()[pri:45, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_45" duration-ms="617" started-at="2020-04-08T10:02:14Z" description="Nhập trường Re-enter password chữ có dấu khoảng trắng  " finished-at="2020-04-08T10:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_45 -->
+        <test-method status="PASS" signature="Add_Staff_46()[pri:46, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_46" duration-ms="1982" started-at="2020-04-08T10:02:14Z" description="Nhập trường Re-enter password ký tự đặc biệt khoảng trắng " finished-at="2020-04-08T10:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_46 -->
+        <test-method status="PASS" signature="Add_Staff_47()[pri:47, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_47" duration-ms="1931" started-at="2020-04-08T10:02:16Z" description="Nhập trường Re-enter password chữ in hoa có dấu khoảng trắng và số" finished-at="2020-04-08T10:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_47 -->
+        <test-method status="PASS" signature="Add_Staff_48()[pri:48, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_48" duration-ms="2027" started-at="2020-04-08T10:02:18Z" description="Nhập trường Re-enter password chữ có dấu ,số,ký tự đặc biệt,khoảng trắng" finished-at="2020-04-08T10:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_48 -->
+        <test-method status="PASS" signature="Add_Staff_49()[pri:49, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_49" duration-ms="1992" started-at="2020-04-08T10:02:20Z" description="Bỏ Trống trường Họ và tên" finished-at="2020-04-08T10:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_49 -->
+        <test-method status="PASS" signature="Add_Staff_50()[pri:50, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_50" duration-ms="1914" started-at="2020-04-08T10:02:22Z" description="Nhập vào trường Họ và tên ký tự in hoa" finished-at="2020-04-08T10:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_50 -->
+        <test-method status="PASS" signature="Add_Staff_51()[pri:51, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_51" duration-ms="1875" started-at="2020-04-08T10:02:24Z" description="Nhập vào trường Họ và tên ký tự in thường " finished-at="2020-04-08T10:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_51 -->
+        <test-method status="PASS" signature="Add_Staff_52()[pri:52, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_52" duration-ms="1880" started-at="2020-04-08T10:02:26Z" description="Nhập vào trường Họ và tên ký tự đặc biệt" finished-at="2020-04-08T10:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_52 -->
+        <test-method status="PASS" signature="Add_Staff_53()[pri:53, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_53" duration-ms="2118" started-at="2020-04-08T10:02:28Z" description="Nhập vào trường Họ và tên số và chữ " finished-at="2020-04-08T10:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_53 -->
+        <test-method status="PASS" signature="Add_Staff_54()[pri:54, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_54" duration-ms="2504" started-at="2020-04-08T10:02:30Z" description="Nhập vào trường Họ và tên số, chữ, ký tự đặc biệt " finished-at="2020-04-08T10:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_54 -->
+        <test-method status="PASS" signature="Add_Staff_55()[pri:55, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_55" duration-ms="2481" started-at="2020-04-08T10:02:33Z" description="Nhập vào trường Họ và tên bao gồm chữ in hoa, in thường, số, ký tự đặc biệt" finished-at="2020-04-08T10:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_55 -->
+        <test-method status="PASS" signature="Add_Staff_56()[pri:56, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_56" duration-ms="2670" started-at="2020-04-08T10:02:35Z" description="Nhập vào trường Họ và tên bao gồm chữ in hoa, in thường, số, ký tự đặc biệt, khoảng trắng " finished-at="2020-04-08T10:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_56 -->
+        <test-method status="PASS" signature="Add_Staff_57()[pri:57, instance:Selenium.themthanhvien@5677323c]" name="Add_Staff_57" duration-ms="2483" started-at="2020-04-08T10:02:38Z" description="Nhập vào trường Họ và tên với kí tự _" finished-at="2020-04-08T10:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Staff_57 -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:Selenium.themthanhvien@5677323c]" name="AfterClass" is-config="true" duration-ms="1093" started-at="2020-04-08T10:02:40Z" finished-at="2020-04-08T10:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- Selenium.themthanhvien -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

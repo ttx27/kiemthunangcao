@@ -1,0 +1,2019 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Nguyen Thien\AppData\Local\Temp\testng-eclipse-1591816942\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">57 methods, 8 failed,   49 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_06">Add_Staff_06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_08">Add_Staff_08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_16">Add_Staff_16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_17">Add_Staff_17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_22">Add_Staff_22</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_23">Add_Staff_23</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_26">Add_Staff_26</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_28">Add_Staff_28</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_01">Add_Staff_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_02">Add_Staff_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_03">Add_Staff_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_04">Add_Staff_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_05">Add_Staff_05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_07">Add_Staff_07</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_09">Add_Staff_09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_10">Add_Staff_10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_11">Add_Staff_11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_12">Add_Staff_12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_13">Add_Staff_13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_14">Add_Staff_14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_15">Add_Staff_15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_18">Add_Staff_18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_19">Add_Staff_19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_20">Add_Staff_20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_21">Add_Staff_21</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_24">Add_Staff_24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_25">Add_Staff_25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_27">Add_Staff_27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_29">Add_Staff_29</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_30">Add_Staff_30</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_31">Add_Staff_31</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_32">Add_Staff_32</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_33">Add_Staff_33</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_34">Add_Staff_34</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_35">Add_Staff_35</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_36">Add_Staff_36</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_37">Add_Staff_37</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_38">Add_Staff_38</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_39">Add_Staff_39</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_40">Add_Staff_40</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_41">Add_Staff_41</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_42">Add_Staff_42</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_43">Add_Staff_43</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_44">Add_Staff_44</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_45">Add_Staff_45</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_46">Add_Staff_46</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_47">Add_Staff_47</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_48">Add_Staff_48</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_49">Add_Staff_49</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_50">Add_Staff_50</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_51">Add_Staff_51</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_52">Add_Staff_52</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_53">Add_Staff_53</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_54">Add_Staff_54</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_55">Add_Staff_55</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_56">Add_Staff_56</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Selenium.themthanhvien" hash-for-method="Add_Staff_57">Add_Staff_57</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Selenium.themthanhvien</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_06">
+                  </a> <!-- Add_Staff_06 -->
+                  <span class="method-name">Add_Staff_06</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [B?n sai ??nh d?ng Email] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_06(themthanhvien.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Nh?p ch? và d?u ch?m  tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_08">
+                  </a> <!-- Add_Staff_08 -->
+                  <span class="method-name">Add_Staff_08</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [B?n nh?p sai ??nh d?ng Email] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_08(themthanhvien.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Nh?p ch? và ký t? ??c bi?t tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_16">
+                  </a> <!-- Add_Staff_16 -->
+                  <span class="method-name">Add_Staff_16</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [B?n nh?p sai ??nh d?ng Email] but found [Ph?n ??ng tr??c &apos;@&apos; không ???c ch?a &apos; &apos;]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_16(themthanhvien.java:248)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Nh?p kho?ng tr?ng và kí t? ??c bi?t vào tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_17">
+                  </a> <!-- Add_Staff_17 -->
+                  <span class="method-name">Add_Staff_17</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [B?n nh?p sai ??nh d?ng Email] but found [Ph?n ??ng tr??c &apos;@&apos; không ???c ch?a &apos;@&apos;]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_17(themthanhvien.java:262)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Nh?p 2 ký t? @@  vào tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_22">
+                  </a> <!-- Add_Staff_22 -->
+                  <span class="method-name">Add_Staff_22</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Password ch? ch?a các kí t? t? A-Z,a-z,0-9] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_22(themthanhvien.java:332)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Nh?p vào tr??ng  ký t? ch?  unicode 6 ký t? Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_23">
+                  </a> <!-- Add_Staff_23 -->
+                  <span class="method-name">Add_Staff_23</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Password ch? ch?a các kí t? t? A-Z,a-z,0-9] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_23(themthanhvien.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Nh?p vào tr??ng  ký t? ch?  unicode 7 ký t? Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_26">
+                  </a> <!-- Add_Staff_26 -->
+                  <span class="method-name">Add_Staff_26</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Password ch? ch?a các kí t? t? A-Z,a-z,0-9] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_26(themthanhvien.java:388)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Nh?p vào tr??ng Password ký t? ??c bi?t )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_28">
+                  </a> <!-- Add_Staff_28 -->
+                  <span class="method-name">Add_Staff_28</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Password ch? ch?a các kí t? t? A-Z,a-z,0-9] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Selenium.themthanhvien.Add_Staff_28(themthanhvien.java:416)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Nh?p vào tr??ng Password s?, ch?, ký t? ??c bi?t )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Selenium.themthanhvien</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_01">
+                  </a> <!-- Add_Staff_01 -->
+                  <span class="method-name">Add_Staff_01</span>
+                  <em>
+(thêm m?i thành viên ?ây ?? các tr??ng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_02">
+                  </a> <!-- Add_Staff_02 -->
+                  <span class="method-name">Add_Staff_02</span>
+                  <em>
+(thêm m?i thành viên v?i email ???c b? tr?ng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_03">
+                  </a> <!-- Add_Staff_03 -->
+                  <span class="method-name">Add_Staff_03</span>
+                  <em>
+(Nh?p ?úng ??nh d?ng tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_04">
+                  </a> <!-- Add_Staff_04 -->
+                  <span class="method-name">Add_Staff_04</span>
+                  <em>
+( Nh?p sai ??nh d?ng tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_05">
+                  </a> <!-- Add_Staff_05 -->
+                  <span class="method-name">Add_Staff_05</span>
+                  <em>
+(Nh?p s? vào tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_07">
+                  </a> <!-- Add_Staff_07 -->
+                  <span class="method-name">Add_Staff_07</span>
+                  <em>
+(Nh?p ch? và d?u _ tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_09">
+                  </a> <!-- Add_Staff_09 -->
+                  <span class="method-name">Add_Staff_09</span>
+                  <em>
+(Nh?p ch? nh? h?n 4 ký t? tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_10">
+                  </a> <!-- Add_Staff_10 -->
+                  <span class="method-name">Add_Staff_10</span>
+                  <em>
+(Nh?p kí t? s? ??ng sau  ký t? @ vào  tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_11">
+                  </a> <!-- Add_Staff_11 -->
+                  <span class="method-name">Add_Staff_11</span>
+                  <em>
+(Nh?p kí t? _ ??ng sau  ký t? @ vào  tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_12">
+                  </a> <!-- Add_Staff_12 -->
+                  <span class="method-name">Add_Staff_12</span>
+                  <em>
+(Nh?p kí t?  ??c bi?t ??ng sau  ký t? @ vào  tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_13">
+                  </a> <!-- Add_Staff_13 -->
+                  <span class="method-name">Add_Staff_13</span>
+                  <em>
+(Nh?p <3 ký t? ??ng sau  ký t? @ vào  tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_14">
+                  </a> <!-- Add_Staff_14 -->
+                  <span class="method-name">Add_Staff_14</span>
+                  <em>
+(Nh?p kho?ng tr?ng vào tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_15">
+                  </a> <!-- Add_Staff_15 -->
+                  <span class="method-name">Add_Staff_15</span>
+                  <em>
+(Nh?p kho?ng tr?ng và kí t? s? vào tr??ng email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_18">
+                  </a> <!-- Add_Staff_18 -->
+                  <span class="method-name">Add_Staff_18</span>
+                  <em>
+(B? Tr?ng tr??ng Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_19">
+                  </a> <!-- Add_Staff_19 -->
+                  <span class="method-name">Add_Staff_19</span>
+                  <em>
+(Nh?p vào tr??ng <5 ký t? ch? Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_20">
+                  </a> <!-- Add_Staff_20 -->
+                  <span class="method-name">Add_Staff_20</span>
+                  <em>
+(Nh?p vào tr??ng =6 ký t? ch? Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_21">
+                  </a> <!-- Add_Staff_21 -->
+                  <span class="method-name">Add_Staff_21</span>
+                  <em>
+(Nh?p vào tr??ng 7 ký t? ch? Password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_24">
+                  </a> <!-- Add_Staff_24 -->
+                  <span class="method-name">Add_Staff_24</span>
+                  <em>
+(Nh?p vào tr??ng Password ký t? in hoa)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_25">
+                  </a> <!-- Add_Staff_25 -->
+                  <span class="method-name">Add_Staff_25</span>
+                  <em>
+(Nh?p vào tr??ng Password ký t? in th??ng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_27">
+                  </a> <!-- Add_Staff_27 -->
+                  <span class="method-name">Add_Staff_27</span>
+                  <em>
+(Nh?p vào tr??ng Password s? và ch? )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_29">
+                  </a> <!-- Add_Staff_29 -->
+                  <span class="method-name">Add_Staff_29</span>
+                  <em>
+(B? Tr?ng tr??ng Re-enter password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_30">
+                  </a> <!-- Add_Staff_30 -->
+                  <span class="method-name">Add_Staff_30</span>
+                  <em>
+(Nh?p tr??ng Re-enter password gi?ng password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_31">
+                  </a> <!-- Add_Staff_31 -->
+                  <span class="method-name">Add_Staff_31</span>
+                  <em>
+(Nh?p tr??ng Re-enter password khác password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_32">
+                  </a> <!-- Add_Staff_32 -->
+                  <span class="method-name">Add_Staff_32</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? in hoa password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_33">
+                  </a> <!-- Add_Staff_33 -->
+                  <span class="method-name">Add_Staff_33</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? in hoa và s? password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_34">
+                  </a> <!-- Add_Staff_34 -->
+                  <span class="method-name">Add_Staff_34</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? in hoa và ký t? ??c bi?t password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_35">
+                  </a> <!-- Add_Staff_35 -->
+                  <span class="method-name">Add_Staff_35</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? in hoa và ký t? th??ng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_36">
+                  </a> <!-- Add_Staff_36 -->
+                  <span class="method-name">Add_Staff_36</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch?  có d?u )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_37">
+                  </a> <!-- Add_Staff_37 -->
+                  <span class="method-name">Add_Staff_37</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch?  có d?u và kho?ng tr?ng )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_38">
+                  </a> <!-- Add_Staff_38 -->
+                  <span class="method-name">Add_Staff_38</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch?  không d?u và kho?ng tr?ng )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_39">
+                  </a> <!-- Add_Staff_39 -->
+                  <span class="method-name">Add_Staff_39</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch?  không d?u ,kho?ng tr?ng,ký t? ??c bi?t)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_40">
+                  </a> <!-- Add_Staff_40 -->
+                  <span class="method-name">Add_Staff_40</span>
+                  <em>
+(Nh?p tr??ng Re-enter password  kho?ng tr?ng,ký t? ??c bi?t )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_41">
+                  </a> <!-- Add_Staff_41 -->
+                  <span class="method-name">Add_Staff_41</span>
+                  <em>
+(Nh?p tr??ng Re-enter password  kho?ng tr?ng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_42">
+                  </a> <!-- Add_Staff_42 -->
+                  <span class="method-name">Add_Staff_42</span>
+                  <em>
+(Nh?p tr??ng Re-enter password  kho?ng tr?ng và s?)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_43">
+                  </a> <!-- Add_Staff_43 -->
+                  <span class="method-name">Add_Staff_43</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? có d?u kho?ng tr?ng và s?)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_44">
+                  </a> <!-- Add_Staff_44 -->
+                  <span class="method-name">Add_Staff_44</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? có d?u kho?ng tr?ng và s?, ký t? ??c bi?t)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_45">
+                  </a> <!-- Add_Staff_45 -->
+                  <span class="method-name">Add_Staff_45</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? có d?u kho?ng tr?ng  )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_46">
+                  </a> <!-- Add_Staff_46 -->
+                  <span class="method-name">Add_Staff_46</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ký t? ??c bi?t kho?ng tr?ng )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_47">
+                  </a> <!-- Add_Staff_47 -->
+                  <span class="method-name">Add_Staff_47</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? in hoa có d?u kho?ng tr?ng và s?)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_48">
+                  </a> <!-- Add_Staff_48 -->
+                  <span class="method-name">Add_Staff_48</span>
+                  <em>
+(Nh?p tr??ng Re-enter password ch? có d?u ,s?,ký t? ??c bi?t,kho?ng tr?ng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_49">
+                  </a> <!-- Add_Staff_49 -->
+                  <span class="method-name">Add_Staff_49</span>
+                  <em>
+(B? Tr?ng tr??ng H? và tên)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_50">
+                  </a> <!-- Add_Staff_50 -->
+                  <span class="method-name">Add_Staff_50</span>
+                  <em>
+(Nh?p vào tr??ng H? và tên ký t? in hoa)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_51">
+                  </a> <!-- Add_Staff_51 -->
+                  <span class="method-name">Add_Staff_51</span>
+                  <em>
+(Nh?p vào tr??ng H? và tên ký t? in th??ng )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_52">
+                  </a> <!-- Add_Staff_52 -->
+                  <span class="method-name">Add_Staff_52</span>
+                  <em>
+(Nh?p vào tr??ng H? và tên ký t? ??c bi?t)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_53">
+                  </a> <!-- Add_Staff_53 -->
+                  <span class="method-name">Add_Staff_53</span>
+                  <em>
+(Nh?p vào tr??ng H? và tên s? và ch? )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_54">
+                  </a> <!-- Add_Staff_54 -->
+                  <span class="method-name">Add_Staff_54</span>
+                  <em>
+(Nh?p vào tr??ng H? và tên s?, ch?, ký t? ??c bi?t )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_55">
+                  </a> <!-- Add_Staff_55 -->
+                  <span class="method-name">Add_Staff_55</span>
+                  <em>
+(Nh?p vào tr??ng H? và tên bao g?m ch? in hoa, in th??ng, s?, ký t? ??c bi?t)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_56">
+                  </a> <!-- Add_Staff_56 -->
+                  <span class="method-name">Add_Staff_56</span>
+                  <em>
+(Nh?p vào tr??ng H? và tên bao g?m ch? in hoa, in th??ng, s?, ký t? ??c bi?t, kho?ng tr?ng )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_Staff_57">
+                  </a> <!-- Add_Staff_57 -->
+                  <span class="method-name">Add_Staff_57</span>
+                  <em>
+(Nh?p vào tr??ng H? và tên v?i kí t? _)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nguyen Thien\AppData\Local\Temp\testng-eclipse-1591816942\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Selenium.themthanhvien&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Add_Staff</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_01</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_02</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_03</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_04</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_05</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_06</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_07</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_08</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_09</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_10</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_11</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_12</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_13</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_14</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_15</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_16</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_17</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_18</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_19</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_20</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_21</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_22</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_23</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_24</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_25</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_26</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_27</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_28</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_29</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_30</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_31</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_32</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_33</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_34</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_35</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_36</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_37</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_38</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_39</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_40</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_41</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_42</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_43</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_44</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_45</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_46</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_47</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_48</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_49</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_50</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_51</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_52</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_53</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_54</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_55</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_56</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_Staff_57</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(57);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Add_Staff_01')
+data.setCell(0, 2, 'Selenium.themthanhvien')
+data.setCell(0, 3, 3009);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Add_Staff_08')
+data.setCell(1, 2, 'Selenium.themthanhvien')
+data.setCell(1, 3, 2714);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Add_Staff_56')
+data.setCell(2, 2, 'Selenium.themthanhvien')
+data.setCell(2, 3, 2670);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Add_Staff_12')
+data.setCell(3, 2, 'Selenium.themthanhvien')
+data.setCell(3, 3, 2597);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Add_Staff_16')
+data.setCell(4, 2, 'Selenium.themthanhvien')
+data.setCell(4, 3, 2529);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Add_Staff_54')
+data.setCell(5, 2, 'Selenium.themthanhvien')
+data.setCell(5, 3, 2504);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Add_Staff_57')
+data.setCell(6, 2, 'Selenium.themthanhvien')
+data.setCell(6, 3, 2483);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Add_Staff_55')
+data.setCell(7, 2, 'Selenium.themthanhvien')
+data.setCell(7, 3, 2481);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Add_Staff_31')
+data.setCell(8, 2, 'Selenium.themthanhvien')
+data.setCell(8, 3, 2471);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Add_Staff_37')
+data.setCell(9, 2, 'Selenium.themthanhvien')
+data.setCell(9, 3, 2445);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Add_Staff_25')
+data.setCell(10, 2, 'Selenium.themthanhvien')
+data.setCell(10, 3, 2427);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Add_Staff_15')
+data.setCell(11, 2, 'Selenium.themthanhvien')
+data.setCell(11, 3, 2398);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Add_Staff_13')
+data.setCell(12, 2, 'Selenium.themthanhvien')
+data.setCell(12, 3, 2374);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Add_Staff_24')
+data.setCell(13, 2, 'Selenium.themthanhvien')
+data.setCell(13, 3, 2316);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Add_Staff_42')
+data.setCell(14, 2, 'Selenium.themthanhvien')
+data.setCell(14, 3, 2315);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Add_Staff_38')
+data.setCell(15, 2, 'Selenium.themthanhvien')
+data.setCell(15, 3, 2291);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Add_Staff_10')
+data.setCell(16, 2, 'Selenium.themthanhvien')
+data.setCell(16, 3, 2284);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Add_Staff_03')
+data.setCell(17, 2, 'Selenium.themthanhvien')
+data.setCell(17, 3, 2260);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Add_Staff_39')
+data.setCell(18, 2, 'Selenium.themthanhvien')
+data.setCell(18, 3, 2242);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Add_Staff_07')
+data.setCell(19, 2, 'Selenium.themthanhvien')
+data.setCell(19, 3, 2219);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Add_Staff_11')
+data.setCell(20, 2, 'Selenium.themthanhvien')
+data.setCell(20, 3, 2196);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Add_Staff_18')
+data.setCell(21, 2, 'Selenium.themthanhvien')
+data.setCell(21, 3, 2190);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Add_Staff_14')
+data.setCell(22, 2, 'Selenium.themthanhvien')
+data.setCell(22, 3, 2162);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Add_Staff_27')
+data.setCell(23, 2, 'Selenium.themthanhvien')
+data.setCell(23, 3, 2150);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Add_Staff_23')
+data.setCell(24, 2, 'Selenium.themthanhvien')
+data.setCell(24, 3, 2139);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Add_Staff_40')
+data.setCell(25, 2, 'Selenium.themthanhvien')
+data.setCell(25, 3, 2138);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Add_Staff_22')
+data.setCell(26, 2, 'Selenium.themthanhvien')
+data.setCell(26, 3, 2127);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Add_Staff_53')
+data.setCell(27, 2, 'Selenium.themthanhvien')
+data.setCell(27, 3, 2118);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Add_Staff_17')
+data.setCell(28, 2, 'Selenium.themthanhvien')
+data.setCell(28, 3, 2094);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Add_Staff_06')
+data.setCell(29, 2, 'Selenium.themthanhvien')
+data.setCell(29, 3, 2080);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Add_Staff_19')
+data.setCell(30, 2, 'Selenium.themthanhvien')
+data.setCell(30, 3, 2078);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Add_Staff_28')
+data.setCell(31, 2, 'Selenium.themthanhvien')
+data.setCell(31, 3, 2078);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Add_Staff_41')
+data.setCell(32, 2, 'Selenium.themthanhvien')
+data.setCell(32, 3, 2076);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Add_Staff_35')
+data.setCell(33, 2, 'Selenium.themthanhvien')
+data.setCell(33, 3, 2071);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Add_Staff_21')
+data.setCell(34, 2, 'Selenium.themthanhvien')
+data.setCell(34, 3, 2071);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Add_Staff_36')
+data.setCell(35, 2, 'Selenium.themthanhvien')
+data.setCell(35, 3, 2061);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Add_Staff_26')
+data.setCell(36, 2, 'Selenium.themthanhvien')
+data.setCell(36, 3, 2046);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Add_Staff_44')
+data.setCell(37, 2, 'Selenium.themthanhvien')
+data.setCell(37, 3, 2036);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Add_Staff_34')
+data.setCell(38, 2, 'Selenium.themthanhvien')
+data.setCell(38, 3, 2028);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'Add_Staff_48')
+data.setCell(39, 2, 'Selenium.themthanhvien')
+data.setCell(39, 3, 2027);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'Add_Staff_32')
+data.setCell(40, 2, 'Selenium.themthanhvien')
+data.setCell(40, 3, 2002);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Add_Staff_09')
+data.setCell(41, 2, 'Selenium.themthanhvien')
+data.setCell(41, 3, 2002);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'Add_Staff_49')
+data.setCell(42, 2, 'Selenium.themthanhvien')
+data.setCell(42, 3, 1992);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Add_Staff_46')
+data.setCell(43, 2, 'Selenium.themthanhvien')
+data.setCell(43, 3, 1982);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Add_Staff_20')
+data.setCell(44, 2, 'Selenium.themthanhvien')
+data.setCell(44, 3, 1965);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Add_Staff_47')
+data.setCell(45, 2, 'Selenium.themthanhvien')
+data.setCell(45, 3, 1931);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'Add_Staff_50')
+data.setCell(46, 2, 'Selenium.themthanhvien')
+data.setCell(46, 3, 1914);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'Add_Staff_52')
+data.setCell(47, 2, 'Selenium.themthanhvien')
+data.setCell(47, 3, 1880);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'Add_Staff_51')
+data.setCell(48, 2, 'Selenium.themthanhvien')
+data.setCell(48, 3, 1875);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'Add_Staff_30')
+data.setCell(49, 2, 'Selenium.themthanhvien')
+data.setCell(49, 3, 1613);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'Add_Staff_05')
+data.setCell(50, 2, 'Selenium.themthanhvien')
+data.setCell(50, 3, 1356);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'Add_Staff_04')
+data.setCell(51, 2, 'Selenium.themthanhvien')
+data.setCell(51, 3, 1353);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'Add_Staff_29')
+data.setCell(52, 2, 'Selenium.themthanhvien')
+data.setCell(52, 3, 1269);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'Add_Staff_33')
+data.setCell(53, 2, 'Selenium.themthanhvien')
+data.setCell(53, 3, 766);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'Add_Staff_43')
+data.setCell(54, 2, 'Selenium.themthanhvien')
+data.setCell(54, 3, 645);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'Add_Staff_45')
+data.setCell(55, 2, 'Selenium.themthanhvien')
+data.setCell(55, 3, 617);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'Add_Staff_02')
+data.setCell(56, 2, 'Selenium.themthanhvien')
+data.setCell(56, 3, 282);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Selenium.themthanhvien</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_01</span>
+                <span class="method-start">7364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_02</span>
+                <span class="method-start">10378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_03</span>
+                <span class="method-start">10664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_04</span>
+                <span class="method-start">12926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_05</span>
+                <span class="method-start">14281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_Staff_06</span>
+                <span class="method-start">15639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_07</span>
+                <span class="method-start">17727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_Staff_08</span>
+                <span class="method-start">19949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_09</span>
+                <span class="method-start">22674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_10</span>
+                <span class="method-start">24678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_11</span>
+                <span class="method-start">26963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_12</span>
+                <span class="method-start">29160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_13</span>
+                <span class="method-start">31759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_14</span>
+                <span class="method-start">34134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_15</span>
+                <span class="method-start">36298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_Staff_16</span>
+                <span class="method-start">38697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_Staff_17</span>
+                <span class="method-start">41228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_18</span>
+                <span class="method-start">43324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_19</span>
+                <span class="method-start">45515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_20</span>
+                <span class="method-start">47594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_21</span>
+                <span class="method-start">49560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_Staff_22</span>
+                <span class="method-start">51633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_Staff_23</span>
+                <span class="method-start">53761 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_24</span>
+                <span class="method-start">55901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_25</span>
+                <span class="method-start">58218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_Staff_26</span>
+                <span class="method-start">60646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_27</span>
+                <span class="method-start">62694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Add_Staff_28</span>
+                <span class="method-start">64845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_29</span>
+                <span class="method-start">66925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_30</span>
+                <span class="method-start">68195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_31</span>
+                <span class="method-start">69810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_32</span>
+                <span class="method-start">72282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_33</span>
+                <span class="method-start">74286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_34</span>
+                <span class="method-start">75053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_35</span>
+                <span class="method-start">77082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_36</span>
+                <span class="method-start">79154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_37</span>
+                <span class="method-start">81217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_38</span>
+                <span class="method-start">83663 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_39</span>
+                <span class="method-start">85955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_40</span>
+                <span class="method-start">88198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_41</span>
+                <span class="method-start">90337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_42</span>
+                <span class="method-start">92414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_43</span>
+                <span class="method-start">94730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_44</span>
+                <span class="method-start">95376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_45</span>
+                <span class="method-start">97413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_46</span>
+                <span class="method-start">98031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_47</span>
+                <span class="method-start">100014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_48</span>
+                <span class="method-start">101946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_49</span>
+                <span class="method-start">103974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_50</span>
+                <span class="method-start">105967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_51</span>
+                <span class="method-start">107881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_52</span>
+                <span class="method-start">109757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_53</span>
+                <span class="method-start">111639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_54</span>
+                <span class="method-start">113758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_55</span>
+                <span class="method-start">116263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_56</span>
+                <span class="method-start">118745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_Staff_57</span>
+                <span class="method-start">121416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">AfterClass</span>
+                <span class="method-start">123900 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

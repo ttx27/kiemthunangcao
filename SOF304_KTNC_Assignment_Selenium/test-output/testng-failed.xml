@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Selenium.themthanhvien">
+        <methods>
+          <include name="Add_Staff_06"/>
+          <include name="Add_Staff_17"/>
+          <include name="Add_Staff_28"/>
+          <include name="Add_Staff_26"/>
+          <include name="Add_Staff_16"/>
+          <include name="Add_Staff_08"/>
+          <include name="AfterClass"/>
+          <include name="Add_Staff_22"/>
+          <include name="Add_Staff_23"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- Selenium.themthanhvien -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
